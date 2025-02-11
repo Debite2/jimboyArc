@@ -1,0 +1,320 @@
+.card {
+    width: 290px;
+    height: 500px;
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  
+  .card h2 {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .card::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+  }  
+
+  .card3 {
+    width: 290px;
+    height: 500px;
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 1000px;
+    margin-top: -500px;
+ 
+  }
+  
+  .card3 h2 {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .card3::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .card3::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+  }  
+
+
+.card2 {
+    width: 290px;
+    height: 500px;
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: -500px;
+  }
+  
+  .card2 h2 {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .card2::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .card2::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+  }  
+  
+  
+  
+
+.pfp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+h2{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.hhh{
+  width: 100px;
+}
+.title2{
+    z-index: 2;
+    position: fixed;
+    overflow: hidden;
+    margin-left: -10px;
+    margin-top: -10px;
+    display: flex;
+    width: 1538px;
+    height: 50px;
+    background: rgb(66,0,0);
+    background: linear-gradient(130deg, rgba(66,0,0,1) 0%, rgba(255,0,0,1) 41%, rgba(0,134,255,1) 100%);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.bg{
+    width: 1538px;
+    height: 700px;
+    margin-left: -10px;
+    background: rgb(0,4,81);
+background: linear-gradient(180deg, rgba(0,4,81,1) 0%, rgba(0,61,255,1) 71%, rgba(255,255,255,1) 100%);
+    top: 0;
+    padding-top: 120px;
+}
+.pfp2{
+    height: 450px;
+    width: 450px;
+    margin-left: 900px;
+    border-radius: 20px;
+    box-shadow: 15px 15px white;
+    margin-top: -250px;
+}
+
+.name{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    color: aliceblue;
+    margin-left: 200px;
+}
+.imm{
+    margin-left: 250px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.parag{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+height: 300px;
+width: 600px;
+padding-left: 100px;
+margin-top: 150px;
+}
+.axa{
+  width: 1538px;
+  margin-top: 120px;
+  margin-left: -20px;
+  border: solid;
+  border-width: 10px;
+  border-color: black;
+}
+.clean{
+    
+        height: 640px;
+        width: 580px;
+        margin-left: 800px;
+        border-radius: 20px;
+        box-shadow: 15px 15px rgb(54, 8, 255);
+        margin-top: -390px;
+    
+}
+.office{
+    
+    height: 950px;
+    width: 700px;
+    margin-left: 720px;
+    border-radius: 20px;
+    box-shadow: 15px 15px rgb(54, 8, 255);
+    margin-top: -455px;
+}
+.sit{
+    
+    height: 650px;
+    width: 580px;
+    margin-left: 80px;
+    border-radius: 20px;
+    box-shadow: 15px 15px rgb(54, 8, 255);
+    margin-top: 350px;
+
+}
+.parag2{
+ margin-top: -490px;
+ margin-left: 90px;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 20px;
+}
+h4{
+    width: 500px;
+    height: 100px;
+}
+.code{
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 15px 15px rgb(54, 8, 255);
+}
+.HH{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 290px;
+}
+.live{
+    margin-left: 90px;
+    margin-top: 600px;
+    border-radius: 20px;
+    box-shadow: 15px 15px rgb(54, 8, 255);
+}
+.bb{
+    margin-top: -700px;
+    margin-left: 1000px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+.pp{
+    margin-top: -40px;
+    margin-left: 1000px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    width: 400px;
+    height: 100px;
+}
+.HH2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 590px;
+}
+.cards{
+    background: rgb(0,4,81);
+    background: linear-gradient(0deg, rgba(0,4,81,1) 0%, rgba(0,151,255,1) 71%, rgba(255,255,255,1) 100%);
+    height: 1000px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.sec{
+    margin-left: 1100px;
+}
